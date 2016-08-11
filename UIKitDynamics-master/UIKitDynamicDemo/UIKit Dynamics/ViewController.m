@@ -27,6 +27,9 @@
     NSArray *_data;
     NSArray *_detail;
 }
+/**
+ *  创建场景用用
+ */
 
 - (void)viewDidLoad {
     [super viewDidLoad];
