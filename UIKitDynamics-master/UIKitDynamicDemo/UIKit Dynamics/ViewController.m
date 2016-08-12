@@ -56,6 +56,12 @@
     cell.detailTextLabel.text = [_detail objectAtIndex:indexPath.row];
     return cell;
 }
+/**
+ *  点击事件的产生和数据的展示
+ *
+ *  @param tableView <#tableView description#>
+ *  @param indexPath <#indexPath description#>
+ */
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
